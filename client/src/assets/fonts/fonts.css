@@ -1,0 +1,25 @@
+/* @font-face {
+    font-family: 'Ubuntu Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Ubuntu Regular'), url('Ubuntu-R.woff') format('woff');
+} */
+
+@font-face {
+    font-family: 'Ubuntu Light';
+    src: local('Ubuntu Light'), url('Ubuntu-L.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Ubuntu Medium'), url('Ubuntu-M.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Ubuntu Bold'), url('Ubuntu-B.woff') format('woff');
+}
