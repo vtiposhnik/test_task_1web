@@ -8,7 +8,8 @@ export default function Home() {
         <section className="flex flex-col">
             <Hero />
             <Categories />
-            <BlackBgCard />
+            <BlackBgCard mobileUrl='/controller-mobile.png' pcUrl="/controller-pc.png" header="Отдохните от суеты современного мира
+                        с нашей подборкой" paragraph="Фильмы, игры, книги и многое другое." />
             <Reviews />
         </section>
     )

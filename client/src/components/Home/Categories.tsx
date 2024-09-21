@@ -4,6 +4,7 @@ import Art from '/icons/art.svg'
 import Play from '/icons/play.svg'
 import Bag from '/icons/bag.svg'
 import Tools from '/icons/tools.svg'
+import { default_btn_hover } from "../util";
 
 export default function Categories() {
 
@@ -40,22 +41,22 @@ export default function Categories() {
                 <Header1 styles="text-center mb-[30px]">Популярные категории</Header1>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                     <button className="">
-                        <Link className="flex justify-center items-center gap-1 font-[700] bg-[#E4D9FF] rounded-[16px] py-4 px-1" to='#'>
+                        <Link className={`flex justify-center items-center gap-1 font-[700] bg-[#E4D9FF] rounded-[16px] py-4 px-1 ${default_btn_hover}`} to='#'>
                             <span className="mb-[2px]">Покупки</span><i><img className=" size-[20px]" src={Bag} alt="svg" /></i>
                         </Link>
                     </button>
                     <button>
-                        <Link className="flex justify-center items-center gap-1 font-[700] bg-[#E4D9FF] rounded-[16px] py-4 px-1" to='#'>
+                        <Link className={`flex justify-center items-center gap-1 font-[700] bg-[#E4D9FF] rounded-[16px] py-4 px-1 ${default_btn_hover}`} to='#'>
                             <span className="mb-[2px]">Развлечения</span> <i><img className=" size-[20px]" src={Play} alt="svg" /></i>
                         </Link>
                     </button>
                     <button>
-                        <Link className="flex justify-center items-center gap-1 font-[700] bg-[#E4D9FF] rounded-[16px] py-4 px-1" to='#'>
+                        <Link className={`flex justify-center items-center gap-1 font-[700] bg-[#E4D9FF] rounded-[16px] py-4 px-1 ${default_btn_hover}`} to='#'>
                             <span className="mb-[2px]">Инструменты</span> <i><img className=" size-[20px]" src={Tools} alt="svg" /></i>
                         </Link>
                     </button>
                     <button>
-                        <Link className="flex justify-center items-center gap-1 font-[700] bg-[#E4D9FF] rounded-[16px] py-4 px-1" to='#'>
+                        <Link className={`flex justify-center items-center gap-1 font-[700] bg-[#E4D9FF] rounded-[16px] py-4 px-1 ${default_btn_hover}`} to='#'>
                             <span className="mb-[2px]">Искусство</span> <i><img className=" size-[20px]" src={Art} alt="svg" /></i>
                         </Link>
                     </button>

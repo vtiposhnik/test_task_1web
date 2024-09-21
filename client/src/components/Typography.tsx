@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { default_btn_hover } from "./util"
 
 interface ITypography {
     children: React.ReactNode
@@ -15,7 +16,7 @@ export function Paragraph({ children, styles = '' }: ITypography) {
 }
 
 export function PinkLinkBtn({ children, styles = '', path }: ITypography) {
-    return <Link className={`${styles} bg-[#E4D9FF] text-[24px] font-[700] w-[180px] rounded-[100px] text-center `} to={path || '#'}>{children}</Link>
+    return <Link className={`${styles} bg-[#E4D9FF] text-[24px] font-[700] w-[180px] rounded-[100px] text-center ${default_btn_hover}`} to={path || '#'}>{children}</Link>
 }
 
 export const TruncateText = ({ text, maxLength }: { text: string, maxLength: number }) => {

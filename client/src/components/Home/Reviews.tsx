@@ -2,7 +2,7 @@ import { Header1, Paragraph } from "../Typography";
 
 export default function Reviews() {
     return (
-        <section className="order-3 md:px-[120px] py-10">
+        <section className="order-3 md:px-[120px] py-10 px-4">
             <Header1>Отзывы наших клиентов</Header1>
             <div className=" py-6 flex flex-col gap-4 md:flex-row">
                 <div className="rounded-[20px] p-4 bg-[#E4D9FF]">
